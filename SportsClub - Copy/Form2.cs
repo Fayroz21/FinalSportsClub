@@ -97,6 +97,9 @@ namespace SportsClub
             ds = new DataSet();
             adapter.Fill(ds);
             memberGridView.DataSource = ds.Tables[0];
+            if (ds.Tables[0].Rows.Count <= 0) {
+                MessageBox.Show("The Membership number you entered does not exist.");   
+            }
         }
 
         /**
@@ -152,6 +155,13 @@ namespace SportsClub
             this.Hide();
             LoginForm login = new LoginForm();
             login.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CrystalReport cr = new CrystalReport();
+            cr.Show();
         }
     }
 }

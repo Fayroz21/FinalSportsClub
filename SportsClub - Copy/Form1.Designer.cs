@@ -29,6 +29,7 @@ namespace SportsClub
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MembersForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab_book = new System.Windows.Forms.TabPage();
             this.btn_save = new System.Windows.Forms.Button();
@@ -76,10 +77,10 @@ namespace SportsClub
             this.label9 = new System.Windows.Forms.Label();
             this.Join_btn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tab_book.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -138,7 +139,10 @@ namespace SportsClub
             // btn_save
             // 
             this.btn_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.btn_save.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_save.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.btn_save.FlatAppearance.BorderSize = 3;
+            this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_save.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_save.Location = new System.Drawing.Point(652, 322);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(131, 44);
@@ -159,6 +163,9 @@ namespace SportsClub
             // btn_load
             // 
             this.btn_load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(205)))), ((int)(((byte)(246)))));
+            this.btn_load.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(163)))), ((int)(((byte)(238)))));
+            this.btn_load.FlatAppearance.BorderSize = 3;
+            this.btn_load.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_load.Location = new System.Drawing.Point(652, 82);
             this.btn_load.Name = "btn_load";
             this.btn_load.Size = new System.Drawing.Size(205, 44);
@@ -170,7 +177,10 @@ namespace SportsClub
             // btn_book
             // 
             this.btn_book.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.btn_book.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_book.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.btn_book.FlatAppearance.BorderSize = 3;
+            this.btn_book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_book.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_book.Location = new System.Drawing.Point(880, 577);
             this.btn_book.Name = "btn_book";
             this.btn_book.Size = new System.Drawing.Size(131, 44);
@@ -461,6 +471,10 @@ namespace SportsClub
             // Save_btn
             // 
             this.Save_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
+            this.Save_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.Save_btn.FlatAppearance.BorderSize = 3;
+            this.Save_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Save_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Save_btn.Location = new System.Drawing.Point(698, 347);
             this.Save_btn.Name = "Save_btn";
             this.Save_btn.Size = new System.Drawing.Size(147, 46);
@@ -570,6 +584,10 @@ namespace SportsClub
             // Join_btn
             // 
             this.Join_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
+            this.Join_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.Join_btn.FlatAppearance.BorderSize = 3;
+            this.Join_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Join_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Join_btn.Location = new System.Drawing.Point(759, 521);
             this.Join_btn.Name = "Join_btn";
             this.Join_btn.Size = new System.Drawing.Size(147, 46);
@@ -591,11 +609,28 @@ namespace SportsClub
             this.panel1.Size = new System.Drawing.Size(1422, 834);
             this.panel1.TabIndex = 1;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 781);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(135, 41);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Log out";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(1119, 807);
+            this.label19.Location = new System.Drawing.Point(1101, 807);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(291, 23);
             this.label19.TabIndex = 2;
@@ -624,17 +659,6 @@ namespace SportsClub
             this.label11.TabIndex = 0;
             this.label11.Text = " •  W    E    L    C    O    M    E   •";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.button3.Location = new System.Drawing.Point(10, 721);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 50);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Log out";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // MembersForm
             // 

@@ -153,6 +153,9 @@ namespace SportsClub
             // btn_login
             // 
             this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(205)))), ((int)(((byte)(246)))));
+            this.btn_login.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(163)))), ((int)(((byte)(238)))));
+            this.btn_login.FlatAppearance.BorderSize = 4;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.Location = new System.Drawing.Point(682, 449);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(151, 51);

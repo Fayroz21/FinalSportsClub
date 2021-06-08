@@ -47,11 +47,12 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dateLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -96,6 +97,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(205)))), ((int)(((byte)(246)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(163)))), ((int)(((byte)(238)))));
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(556, 104);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(238, 50);
@@ -107,11 +111,14 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.button2.Location = new System.Drawing.Point(957, 541);
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.button2.FlatAppearance.BorderSize = 3;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(890, 537);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 50);
+            this.button2.Size = new System.Drawing.Size(196, 50);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Save";
+            this.button2.Text = "Save Changes";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -120,10 +127,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 10.8F);
-            this.tabControl1.Location = new System.Drawing.Point(146, 90);
+            this.tabControl1.Location = new System.Drawing.Point(141, 135);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1157, 694);
+            this.tabControl1.Size = new System.Drawing.Size(1157, 649);
             this.tabControl1.TabIndex = 5;
             // 
             // tabPage1
@@ -136,7 +143,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1149, 656);
+            this.tabPage1.Size = new System.Drawing.Size(1149, 611);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Events";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -152,7 +159,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1149, 656);
+            this.tabPage2.Size = new System.Drawing.Size(1149, 611);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Members";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -161,6 +168,9 @@
             // viewAll
             // 
             this.viewAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(205)))), ((int)(((byte)(246)))));
+            this.viewAll.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(163)))), ((int)(((byte)(238)))));
+            this.viewAll.FlatAppearance.BorderSize = 3;
+            this.viewAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewAll.Location = new System.Drawing.Point(620, 105);
             this.viewAll.Name = "viewAll";
             this.viewAll.Size = new System.Drawing.Size(148, 50);
@@ -182,9 +192,12 @@
             // updateChangesBtn
             // 
             this.updateChangesBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.updateChangesBtn.Location = new System.Drawing.Point(937, 548);
+            this.updateChangesBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(199)))), ((int)(((byte)(154)))));
+            this.updateChangesBtn.FlatAppearance.BorderSize = 3;
+            this.updateChangesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateChangesBtn.Location = new System.Drawing.Point(937, 547);
             this.updateChangesBtn.Name = "updateChangesBtn";
-            this.updateChangesBtn.Size = new System.Drawing.Size(158, 62);
+            this.updateChangesBtn.Size = new System.Drawing.Size(158, 50);
             this.updateChangesBtn.TabIndex = 8;
             this.updateChangesBtn.Text = "Update ";
             this.updateChangesBtn.UseVisualStyleBackColor = false;
@@ -193,6 +206,9 @@
             // searchBtn
             // 
             this.searchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(205)))), ((int)(((byte)(246)))));
+            this.searchBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(163)))), ((int)(((byte)(238)))));
+            this.searchBtn.FlatAppearance.BorderSize = 3;
+            this.searchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchBtn.Location = new System.Drawing.Point(807, 105);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(148, 50);
@@ -250,6 +266,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.panel2);
@@ -259,6 +276,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1448, 834);
             this.panel1.TabIndex = 7;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(3, 780);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(125, 42);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Log out";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label19
             // 
@@ -307,16 +341,23 @@
             this.label3.Text = "Sports Club";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // button4
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(227)))), ((int)(((byte)(204)))));
-            this.button3.Location = new System.Drawing.Point(12, 720);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 50);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Log out";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(206)))));
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(212)))), ((int)(((byte)(92)))));
+            this.button4.FlatAppearance.BorderSize = 3;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.8F);
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(1090, 95);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(208, 50);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Go to Reports";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // AdminForm
             // 
@@ -370,5 +411,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button viewAll;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
