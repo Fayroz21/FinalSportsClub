@@ -617,7 +617,7 @@ namespace SportsClub
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 781);
+            this.button3.Location = new System.Drawing.Point(3, 781);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 41);
             this.button3.TabIndex = 6;
